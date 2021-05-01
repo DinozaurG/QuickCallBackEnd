@@ -1,2 +1,2 @@
 # QuickCallBackEnd
-This is server part for QuickCall application
+This is server part for (https://github.com/DinozaurG/QuickCall "QuickCall") application
