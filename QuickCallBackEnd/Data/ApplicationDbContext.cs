@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QuickCallBackEnd.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,8 @@ namespace QuickCallBackEnd.Data
     {
         public ApplicationDbContext(DbContextOptions options)
             : base(options)
-        {
-        }
+        { }
+        public DbSet<Contact> Contacts { get; set; }
     }
 
 }

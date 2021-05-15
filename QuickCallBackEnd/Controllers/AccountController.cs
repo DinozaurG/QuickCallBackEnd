@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Backend6.Models;
-using Backend6.Models.AccountViewModels;
+using QuickCallBackEnd.Models;
+using QuickCallBackEnd.Models.AccountViewModels;
 using Microsoft.AspNetCore.Authentication;
 
-namespace Backend6.Controllers
+namespace QuickCallBackEnd.Controllers
 {
     [Authorize]
     public class AccountController : Controller
